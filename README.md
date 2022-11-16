@@ -6,7 +6,6 @@
 # ACTIVARLO EN TERMUX
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd
 > termux-setup-storage
 > apt update 
 > apt upgrade 
