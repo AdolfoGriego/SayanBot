@@ -1,7 +1,7 @@
 {
-    "name": "SimpleBot",
+    "name": "WhatsAppBot",
     "version": "1.0.0",
-    "description": "Subscribete al canal de YT The Shadow Borkers",
+    "description": "Subscribete",
     "depecrated": false,
     "main": "index.js",
     "directories": {
@@ -27,16 +27,16 @@
         "multi-device",
         "wabot-aq"
     ],
-    "homepage": "https://github.com/BrunoSobrino",
+    "homepage": "https://github.com/AdolfoGriego",
     "author": {
         "name": "BrunoSobrino"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BrunoSobrino/TheMystic-Bot-MD.git"
+        "url": "git+https://github.com/AdolfoGriego/WhatsAppBot.git"
     },
     "bugs": {
-        "url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues"
+        "url": "https://github.com/AdolfoGriego/WhatsAppBot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
