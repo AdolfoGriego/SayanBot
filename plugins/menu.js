@@ -9,6 +9,8 @@ let menu = `
 
 ╭──────────────────╮
 ├ *INFORMACIÓN*
+├➣ *Fecha:* ${date}
+├➣ *Tiempo activo:* ${uptime}
 ├➣ _${usedPrefix}runtime_
 ├➣ _${usedPrefix}infohost_
 ├➣ _${usedPrefix}tts *[lenguaje] [texto]*_
@@ -26,6 +28,7 @@ let menu = `
 ├➣ _${usedPrefix}wikipedia *[texto]*_
 ├➣ _${usedPrefix}google *[texto]*_
 ├➣ _${usedPrefix}imagen *[texto]*_
+├➣ _${usedPrefix}facebook [enlace]
 ├➣ _${usedPrefix}ig *[url]*_
 ├➣ _${usedPrefix}mediafire *[url]*_
 ├➣ _${usedPrefix}tiktok *[url]*_
@@ -43,13 +46,19 @@ let menu = `
 ├➣ _${usedPrefix}on welcome_
 ├➣ _${usedPrefix}off welcome_
 ├➣ _${usedPrefix}invocar *[texto]*_
+├➣ _${usedPrefix}antilink
+├➣ _${usedPrefix}antilink2
+├➣ _${usedPrefix}destraba
+├➣ _${usedPrefix}antifackes
+├➣ _${usedPrefix}add
+├➣ _${usedPrefix}kick
 ╰──────────────────╯
 
 ╭──────────────────╮
 ├ *AUDIOS DEL BOT*
 (uso sin prefijo)
 ├➣ _Hola_
-├➣ _Waza
+├➣ _Waza_
 ├➣ _Ta bien_
 ├➣ _Te crees verga bot_
 ├➣ _Ya antojaron_
@@ -117,7 +126,7 @@ mediaUrl: null,
 title: 'WhatsAppBot',
 body: null,
 thumbnail: fs.readFileSync('./src/logo.png'),
-sourceUrl: `https://chat.whatsapp.com/F0fU7LSlBBcBm6ny5fVSuT`
+sourceUrl: `https://chat.whatsapp.com/IE9bL1KB1laDzB7tZCB0WR`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
