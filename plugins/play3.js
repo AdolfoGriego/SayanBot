@@ -8,14 +8,14 @@ let vid = (await youtubeSearch(text)).video[0]
 let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
 const url = 'https://www.youtube.com/watch?v=' + videoId
 let caption = `📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
-📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}
-📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
-⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
-👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
-🔗 *𝚄𝚁𝙻:* ${url}`.trim()
+📝 *DESCRIPCIÓN:* ${description}
+📆 *PUBLICADO:* ${publishedTime}
+⏳ *DURACIÓN:* ${durationH}
+👀 *VISTAS:* ${viewH}
+📎 *URL:* ${url}`.trim()
 let buttons = [
-{ buttonId: `${usedPrefix}getaud ${url}`, buttonText: { displayText: '𝐀𝐔𝐃𝐈𝐎' }, type: 1 },
-{ buttonId: `${usedPrefix}getvid ${url}`, buttonText: { displayText: '𝐕𝐈𝐃𝐄𝐎' }, type: 1 }]
+{ buttonId: `${usedPrefix}getaud ${url}`, buttonText: { displayText: 'AUDIOS🎵' }, type: 1 },
+{ buttonId: `${usedPrefix}getvid ${url}`, buttonText: { displayText: 'VIDEO📽' }, type: 1 }]
 let buttonMessage = {
 image: await fetch(thumbnail),
 caption: caption,
@@ -29,14 +29,14 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝐀𝐜𝐢𝐝𝐢𝐜𝐍𝐨𝐝𝐞𝐬 𝐇𝐨𝐬𝐭 👑',
+title: 'WhatsAppBot',
 body: null,
 thumbnail: fs.readFileSync('./src/logo.png'),
-sourceUrl: `https://chat.whatsapp.com/F0fU7LSlBBcBm6ny5fVSuT`
+sourceUrl: `https://chat.whatsapp.com/IE9bL1KB1laDzB7tZCB0WR`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m }) 
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
+m.reply('*ERROR VUELVE INTENTARLO DE NUEVO*')
 }}
 handler.command = /^(play3)$/i
 module.exports = handler
