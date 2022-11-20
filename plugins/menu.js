@@ -9,8 +9,6 @@ let menu = `
 
 ╭──────────────────╮
 ├ *INFORMACIÓN*
-├➣ *Fecha:* ${date}
-├➣ *Tiempo activo:* ${uptime}
 ├➣ _${usedPrefix}runtime_
 ├➣ _${usedPrefix}infohost_
 ├➣ _${usedPrefix}tts *[lenguaje] [texto]*_
@@ -57,7 +55,6 @@ let menu = `
 ╭──────────────────╮
 ├ *AUDIOS DEL BOT*
 (uso sin prefijo)
-├➣ _A_
 ├➣ _Hola_
 ├➣ _Waza_
 ├➣ _Ta bien_
@@ -127,7 +124,7 @@ mediaUrl: null,
 title: 'WhatsAppBot',
 body: null,
 thumbnail: fs.readFileSync('./src/logo.png'),
-sourceUrl: `https://chat.whatsapp.com/F0fU7LSlBBcBm6ny5fVSuT`
+sourceUrl: `https://chat.whatsapp.com/IE9bL1KB1laDzB7tZCB0WR`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
