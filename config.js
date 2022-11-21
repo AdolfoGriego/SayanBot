@@ -15,8 +15,8 @@ global.linkUrlbot = "https://www.instagram.com/adolfogriego_"
 
 global.DeveloperMode = 'false' 
 global.linkGC = []
-global.mods = ['528451003894'] 
-global.prems = ['528451003894'] 
+global.mods = [] 
+global.prems = [] 
 global.APIs = { 
 nrtm: 'https://nurutomo.herokuapp.com',
 xteam: 'https://api.xteam.xyz',
