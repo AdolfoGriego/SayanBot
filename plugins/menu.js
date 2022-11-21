@@ -26,7 +26,6 @@ let menu = `
 ├➣ _${usedPrefix}wikipedia *[texto]*_
 ├➣ _${usedPrefix}google *[texto]*_
 ├➣ _${usedPrefix}imagen *[texto]*_
-├➣ _${usedPrefix}facebook [enlace]
 ├➣ _${usedPrefix}ig *[url]*_
 ├➣ _${usedPrefix}mediafire *[url]*_
 ├➣ _${usedPrefix}tiktok *[url]*_
@@ -44,12 +43,6 @@ let menu = `
 ├➣ _${usedPrefix}on welcome_
 ├➣ _${usedPrefix}off welcome_
 ├➣ _${usedPrefix}invocar *[texto]*_
-├➣ _${usedPrefix}antilink
-├➣ _${usedPrefix}antilink2
-├➣ _${usedPrefix}destraba
-├➣ _${usedPrefix}antifackes
-├➣ _${usedPrefix}add
-├➣ _${usedPrefix}kick
 ╰──────────────────╯
 
 ╭──────────────────╮
