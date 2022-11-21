@@ -1,6 +1,6 @@
 //============= Datos del Bot =============//
 
-global.owner = ['528451003894']
+global.owner = ['5218451003894']
 global.packname = 'Sticker'
 global.author = 'WhatsAppBot'
 global.wm = 'WhatsAppBot'
@@ -9,14 +9,14 @@ global.wait = '*⏳Cargando espera...*'
 //============= urlButtons =============//
 
 global.textUrlbot = 'instagram'
-global.linkUrlbot = "https://www.instagram.com/AdolfoGriego_"
+global.linkUrlbot = "https://www.instagram.com/adolfogriego_"
 
 //=========================================================================//
 
 global.DeveloperMode = 'false' 
 global.linkGC = []
-global.mods = [] 
-global.prems = [] 
+global.mods = ['528451003894'] 
+global.prems = ['528451003894'] 
 global.APIs = { 
 nrtm: 'https://nurutomo.herokuapp.com',
 xteam: 'https://api.xteam.xyz',
