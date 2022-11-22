@@ -180,10 +180,8 @@ module.exports = {
                     if (!('sDemote' in chat)) chat.sDemote = ''
                     if (!('delete' in chat)) chat.delete = true
                     if (!('antiLink' in chat)) chat.antiLink = false
-                    if (!('antiLink2' in chat)) chat.antiLink2 = false
                     if (!('simi' in chat)) chat.simi = false
                     if (!('viewonce' in chat)) chat.viewonce = false
-                    if (!('antiArab' in chat)) chat.antiArab = false
                     if (!('antiToxic' in chat)) chat.antiToxic = false
                 } else global.db.data.chats[m.chat] = {
                     isBanned: false,
@@ -194,9 +192,7 @@ module.exports = {
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiArab
                     antiLink: false,
-                    antiLink2: false,
                     simi: false,
                     viewonce: false,
                     antiToxic: false,
