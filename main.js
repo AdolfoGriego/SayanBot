@@ -63,7 +63,7 @@ const connectionOptions = {
   auth: state,
   logger: P({ level: 'silent'}),
   downloadHistory: false,
-  browser: ['WhatsAppBot','Safari','1.0.0']
+  browser: ['SIMPLE-BOT','Safari','1.0.0']
 }
 
 global.conn = simple.makeWASocket(connectionOptions)
@@ -129,8 +129,8 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '*╭──────────────*\n*├➣ @subject*\n*├──────────────*\n*├➣ @user*\n*├➣ Welcome* \n*├*\n*├➣ Descripción del grupo:*\n*├➣* @desc\n*├*\n*├➣ Disfruta del mejor grupo*\n*╰──────────────*'
-  conn.bye = '*╭──────────────*\n*├➣ @user*\n*├➣ Adiós nadie te va extrañar* \n*╰──────────────*'  
+  conn.welcome = '*╭──────────────────╮*\n*├➣ @subject*\n* ├──────────────*\n*├➣ @user*\n*├➣ 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾/𝙰* \n*│*\n*├➣ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾:*\n*├➣* @desc\n*│*\n*├➣ 𝙳𝙸𝚂𝙵𝚁𝚄𝚃𝙰 𝚃𝚄 𝙴𝚂𝚃𝙰𝙳𝙸𝙰!!*\n**'
+  conn.bye = '*╭──────────────────╮*\n*├➣ @user*\n*├➣ Saliste por que nadie te quiso en este grupo fan de BTS🏳️‍🌈* \n*╰──────────────────╯*'  
   conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
   conn.handler = handler.handler.bind(conn)
@@ -229,5 +229,5 @@ var a = await clearTmp()
 console.log(chalk.cyanBright(`\n▣────────[ 𝙰𝚄𝚃𝙾𝙲𝙻𝙴𝙰𝚁𝚃𝙼𝙿 ]───────────···\n│\n▣─❧ 𝙰𝚁𝙲𝙷𝙸𝚅𝙾𝚂 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾𝚂 ✅\n│\n▣────────────────────────────────────···\n`))
 }, 180000)
 _quickTest()
-.then(() => conn.logger.info('Cargando．．．\n'))
+.then(() => conn.logger.info('Ƈᴀʀɢᴀɴᴅᴏ．．．\n'))
 .catch(console.error)
