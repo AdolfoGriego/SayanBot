@@ -53,7 +53,20 @@ let menu = `
 ├➣ _Ta bien_
 ├➣ _Te crees verga bot_
 ├➣ _Ya antojaron_
+├➣ _Gracias bot_
+├➣ _Bot puto_
+├➣ _Sopa de macaco_
+├➣ _Vapo Vapor_
+├➣ _Me enamore_
+├➣ _Estoy triste_
+├➣ _Ven y sana mi dolor_
+├➣ _Fanatica_
+├➣ _No digas mamadas_
 ╰──────────────────╯
+
+╭──────────────────╮
+│*JUEGOS*
+├➣ _${usedPrefix}ppt_
 
 ╭──────────────────╮
 │*STICKERS*
