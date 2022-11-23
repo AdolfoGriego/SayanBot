@@ -6,7 +6,7 @@ let fetch = require('node-fetch')
 const { servers, yta, ytv } = require('../lib/y2mate')
 let handler = async(m, { conn, command, text, isPrems, isOwner, DevMode, args, usedPrexi }) => {
 conn.play = conn.play ? conn.play : {}
-if (!text) throw '*COLOCA EL NOMBRE EJEMPLO: #play metaphosis*'
+if (!text) throw '*COLOCA EL NOMBRE EJEMPLO: #play volar volar cartel de santa*'
 try {
 let results = await yts(text)
 let vid = results.all.find(video => video.seconds < 3600)

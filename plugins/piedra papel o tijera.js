@@ -1,5 +1,5 @@
 let handler = async (m, { text, usedPrefix }) => {
-    let salah = `*_Hola 👋🏻, bienvenido al juego de piedra, papel o tijera_*\n\n*_Opciones Disponibles:_*\n*_piedra, papel o tijera_*\n\n*_${usedPrefix}ppt tijera_*\n\n*_Use las opciones en minusculas como se indica en el ejemplo, no use los _ ni los * para que el Bot lo detecte correctamente_*\n\n_©The Shadow Brokers - Bot_`
+    let salah = `*_Hola 👋🏻, bienvenido al juego de piedra, papel o tijera_*\n\n*_Opciones Disponibles:_*\n*_piedra, papel o tijera_*\n\n*_${usedPrefix}ppt tijera_*\n\n*_Use las opciones en minusculas como se indica en el ejemplo, no use los _ ni los * para que el Bot lo detecte correctamente_*\n\n_©𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭_`
     if (!text) throw salah
     var astro = Math.random()
 
@@ -12,41 +12,41 @@ let handler = async (m, { text, usedPrefix }) => {
     }
 
     if (text == astro) {
-        m.reply(`*_🔰 Empate!_*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+        m.reply(`*_Empate!_*\n\n*✒ Tu: ${text}*\n*✒ El Bot: ${astro}*`)
         } else if (text == 'papel') {
         if (astro == 'piedra') {
             global.DATABASE._data.users[m.sender].money += 1000
-            m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+            m.reply(`*🥳 Tú ganas!*\n\n*✒ Ti: ${text}*\n*✒ El Bot: ${astro}*`)
         } else {
-            m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+            m.reply(`*☠️ Tú pierdes! ❌*\n\n*✒ Tu: ${text}*\n*✒ El Bot: ${astro}*`)
         }
         } else if (text == 'tijera') {
         if (astro == 'papel') {
             global.DATABASE._data.users[m.sender].uang += 1000
-            m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+            m.reply(`*🥳 Tú ganas! 🎉*\n\n*✒ Tu: ${text}*\n*✒ El Bot: ${astro}*`)
         } else {
-            m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+            m.reply(`*☠️ Tú pierdes! ❌*\n\n*✒ Tu: ${text}*\n*✒ El Bot: ${astro}*`)
         }
             } else if (text == 'tijera') {
         if (astro == 'papel') {
             global.DATABASE._data.users[m.sender].uang += 1000
-            m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+            m.reply(`*🥳 Tú ganas! 🎉*\n\n*✒ Tu: ${text}*\n*✒ El Bot: ${astro}*`)
         } else {
-            m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+            m.reply(`*☠️ Tú pierdes! ❌*\n\n*✒ Tu: ${text}*\n*✒ El Bot: ${astro}*`)
         }
         } else if (text == 'papel') {
         if (astro == 'piedra') {
             global.DATABASE._data.users[m.sender].uang += 1000
-            m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+            m.reply(`*🥳 Tú ganas! 🎉*\n\n*✒ Tu: ${text}*\n*✒ El Bot: ${astro}*`)
         } else {
-            m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+            m.reply(`*☠️ Tú pierdes! ❌*\n\n*✒ Tu: ${text}*\n*✒ El Bot: ${astro}*`)
         }
         } else if (text == 'piedra') {
         if (astro == 'tijera') {
             global.DATABASE._data.users[m.sender].uang += 1000
-            m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+            m.reply(`*🥳 Tú ganas! 🎉*\n\n*✒ Tu: ${text}*\n*✒ El Bot: ${astro}*`)
         } else {
-            m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Usted: ${text}*\n*👉🏻 El Bot: ${astro}*`)
+            m.reply(`*☠️ Tú pierdes! ❌*\n\n*✒ Tu: ${text}*\n*✒ El Bot: ${astro}*`)
         }
         } else {
         throw salah

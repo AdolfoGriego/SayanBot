@@ -4,7 +4,7 @@ let pp = './Menu2.jpg'
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let menu = `
 ╭──────────────────╮
-├➣ *Hola, ${taguser}
+├➣🙋‍♂️ *Hola, ${taguser}*
 ╰──────────────────╯
 
 ╭──────────────────╮
@@ -31,7 +31,7 @@ let menu = `
 ├➣ _${usedPrefix}tiktok *[url]*_
 ╰──────────────────╯
 ╭──────────────────╮
-├ *MOMENTOS XD*
+├ *IMAGENES RANDOM*
 ├➣ _${usedPrefix}cat_
 ├➣ _${usedPrefix}dog_
 ├➣ _${usedPrefix}meme_
@@ -67,6 +67,7 @@ let menu = `
 ╭──────────────────╮
 │*JUEGOS*
 ├➣ _${usedPrefix}ppt_
+╰──────────────────╯
 
 ╭──────────────────╮
 │*STICKERS*
@@ -104,7 +105,7 @@ let menu = `
 ╰──────────────────╯
 
 ╭──────────────────╮
-│ *CREADOR*
+│*CREADOR Y BOT OFICIAL*
 ├➣ _${usedPrefix}update_
 ├➣ _${usedPrefix}banchat_
 ├➣ _${usedPrefix}unbanchat_
@@ -127,7 +128,7 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: 'WhatsAppBot',
+title: '𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭',
 body: null,
 thumbnail: fs.readFileSync('./src/logo.png'),
 sourceUrl: `https://chat.whatsapp.com/IE9bL1KB1laDzB7tZCB0WR`

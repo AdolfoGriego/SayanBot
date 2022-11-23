@@ -26,14 +26,13 @@ if (!/[01]/.test(command)) throw `
 Ejemplo:
 ${usedPrefix}on welcome
 ${usedPrefix}off welcome
-${usedPrefix}antifackes
-${usedPrefix}destraba
+${usedPrefix}invocar
 `.trim()
 throw false
 }
-m.reply(`🗂️ 𝐎𝐏𝐂𝐈𝐎𝐍: ${type} 
-🎚️ 𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
-📣 𝐏𝐀𝐑𝐀: ${isAll ? '𝙴𝚂𝚃𝙴 𝙱𝙾𝚃' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'}`)
+m.reply(`𝐎𝐏𝐂𝐈𝐎𝐍: ${type} 
+ 𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? 'Activado' : 'Desactivado'}
+𝐏𝐀𝐑𝐀: ${isAll ? 'este bot' : isUser ? '' : 'este chat'}`)
 }
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 module.exports = handler

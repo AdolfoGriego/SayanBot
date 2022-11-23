@@ -14,8 +14,8 @@ let caption = `✍️ *TÍTULO:* ${title}
 👀 *VISTAS:* ${viewH}
 📎 *URL:* ${url}`.trim()
 let buttons = [
-{ buttonId: `${usedPrefix}getaud ${url}`, buttonText: { displayText: 'AUDIOS🎵' }, type: 1 },
-{ buttonId: `${usedPrefix}getvid ${url}`, buttonText: { displayText: 'VIDEO📽' }, type: 1 }]
+{ buttonId: `${usedPrefix}getaud ${url}`, buttonText: { displayText: 'AUDIO🎶' }, type: 1 },
+{ buttonId: `${usedPrefix}getvid ${url}`, buttonText: { displayText: 'VIDEO🎥' }, type: 1 }]
 let buttonMessage = {
 image: await fetch(thumbnail),
 caption: caption,
