@@ -6,21 +6,21 @@
 # ACTIVARLO EN TERMUX
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> termux-setup-storage
-> apt update 
-> apt upgrade 
-> apt install yarn 
-> apt install git -y
-> apt install nodejs -y
-> apt install ffmpeg -y
-> apt install imagemagick -y
-> git clone https://github.com/AdolfoGriego/WhatsAppBot
-> cd WhatsAppBot
-> yarn install
-> npm install
-> npm update
-> npm install
-> npm start
+$ termux-setup-storage
+$ apt update 
+$ apt upgrade -y
+$ pkg install git -y
+$ pkg install nodejs -y
+$ pkg install ffmpeg -y
+$ pkg install imagemagick -y
+$ pkg install yarn -y
+$ git clone https://github.com/AdolfoGriego/WhatsAppBot
+$ cd WhatsAppBot
+$ ls
+$ yarn install
+$ npm install
+$ npm update
+$ npm start
 ```
 # EN CASO QUE SE DETENGA
 ```bash
