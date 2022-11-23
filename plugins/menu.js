@@ -56,12 +56,14 @@ let menu = `
 ├➣ _Gracias bot_
 ├➣ _Bot puto_
 ├➣ _Sopa de macaco_
-├➣ _Vapo Vapor_
+├➣ _Vapo Vapo_
 ├➣ _Me enamore_
 ├➣ _Estoy triste_
 ├➣ _Ven y sana mi dolor_
 ├➣ _Fanatica_
 ├➣ _No digas mamadas_
+├➣ _Me duele me quema_
+├➣ _No hablo taka taka_
 ╰──────────────────╯
 
 ╭──────────────────╮

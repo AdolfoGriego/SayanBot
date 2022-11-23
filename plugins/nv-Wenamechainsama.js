@@ -3,13 +3,13 @@ let path = require('path')
 
 
 let handler = async (m, { conn }) => {
-let vn = './src/Ya antojaron.mp3'
-conn.sendFile(m.chat, vn, 'Ya antojaron.mp3', null, m, true, {
+let vn = './src/Wenamechainsama.mp3'
+conn.sendFile(m.chat, vn, 'Wenamechainsama.mp3', null, m, true, {
 type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /Ya antojaron/i
+handler.customPrefix = /Wenamechainsama/i
 handler.command = new RegExp
 
 
