@@ -122,7 +122,7 @@ let buttons = [
 { buttonId: '#runtime', buttonText: { displayText: '𝐑𝐔𝐍𝐓𝐈𝐌𝐄' }, type: 1 },
 { buttonId: '#infohost', buttonText: { displayText: '𝐈𝐍𝐅𝐎𝐇𝐎𝐒𝐓' }, type: 1 }]
 let buttonMessage = {
-image: fs.readFileSync('./Menu2.jpg'),
+image: fs.readFileSync('./Menu2.mp4'),
 caption: menu.trim(),
 mentions: [m.sender],
 footer: `*${wm}*`,
