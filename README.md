@@ -1,6 +1,6 @@
 # WhatsAppBot
 
-# ACLARACIONES DEL BOT
+# CONTACTAME
 <a href="http://wa.me/528451003894" target="blank"><img src="https://img.shields.io/badge/Adolfo-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
 # ACTIVARLO EN TERMUX
