@@ -1,12 +1,12 @@
 let fs = require('fs')
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './Menu2.jpg'
+let pp = './Menu2.mp4'
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let menu = `
 ╭───────────────╮
 ├➤🙋‍♂️ *Hola, ${taguser} aqui esta el menu*
 ╰───────────────╯
-
+wa.me/+5218451003894
 ╭───────────────╮
 │ *❴INFORMACIÓN❵*
 ├➤ _${usedPrefix}runtime_
