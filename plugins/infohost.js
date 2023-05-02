@@ -1,29 +1,21 @@
 let handler = async (m, { conn }) => {
-m.reply(`
-*HOLA BUSCAS INTALAR ESTE BOT AQUI TE DEJO LOS COMANDOS Y SI NO SABES COMO INSTALARLO ENTRA AL GRUPO AQUI TE DEJO EL ENLACE*
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-$ termux-setup-storage
-$ apt update 
-$ apt upgrade -y
-$ pkg install git -y
-$ pkg install nodejs -y
-$ pkg install ffmpeg -y
-$ pkg install imagemagick -y
-$ pkg install yarn -y
-$ git clone https://github.com/AdolfoGriego/WhatsAppBot
-$ cd WhatsAppBot
-$ ls
-$ yarn install
-$ npm install
-$ npm update
-$ npm start
+m.reply(`*Hola! Buscas la mejor alternativa a Heroku, termux, replit, etc. de manera gratuita o de paga?*
 
-*GRUPO OFICIAL DEL BOT:*
-https://chat.whatsapp.com/IE9bL1KB1laDzB7tZCB0WR
+*- Esta es tu mejor opción para tener tu Bot, pagina web, servidor de minecraft o algun otro proyecto activo 24/7*
 
-*GRUPO DE AMISTAD:*
-https://chat.whatsapp.com/IUNdYngu5AlCJFHuHHuen4
-`)
+*Incluso mejor que otros servicios como los antes mencionados, ¿Muy lento tu nokia y necesitas tener activado tu bot 24/7?*
+
+*[_Pagina principal_]*
+
+- boxmineworld.com
+
+*[_BoxMine Dash_]*
+
+- dash.boxmineworld.com
+
+*[_BoxMine Panel_]*
+
+- panel.boxmineworld.com`)
 }
 handler.command = /^(infohost)$/i
 module.exports = handler
