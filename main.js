@@ -129,8 +129,8 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '*╭───────────────╮*\n*├➣ @subject*\n*├──────────────*\n*├➣ @user*\n*├➣ Bienvenidos* \n*│*\n*├➣ DESCRIPCIÓN DEL GRUPO:*\n*├➣* @desc\n*│*\n*├➣ DISFRUTA DEL MEJOR GRUPO*\n*╰───────────────╯*'
-  conn.bye = '*╭───────────────╮*\n*╭───────────────╮ @user*\n*├➣ Se fue por que no le hicieron caso🏳️‍🌈* \n*╰───────────────╯*'  
+  conn.welcome = '*╭───────────────╮*\n*├➣ @subject*\n*├──────────────*\n*├➣ @user*\n*├➣ Bienvenido/a* \n*│*\n*├➣ DESCRIPCIÓN DEL GRUPO:*\n*├➣* @desc\n*│*\n*├➣ DISFRUTA DEL MEJOR GRUPO*\n*╰───────────────╯*'
+  conn.bye = '*╭───────────────╮*\n*╭───────────────╮ @user*\n*├➣ Hasta la vista crack nadie te necesitara* \n*╰───────────────╯*'  
   conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
   conn.handler = handler.handler.bind(conn)

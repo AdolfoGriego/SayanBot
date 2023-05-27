@@ -1,7 +1,7 @@
 {
-    "name": "WhatsAppBot",
+    "name": "SayanBot",
     "version": "1.0.0",
-    "description": "Subscribete",
+    "description": "Sigue firme crack",
     "depecrated": false,
     "main": "index.js",
     "directories": {
@@ -33,10 +33,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AdolfoGriego/WhatsAppBot.git"
+        "url": "git+https://github.com/AdolfoGriego/SayanBot.git"
     },
     "bugs": {
-        "url": "https://github.com/AdolfoGriego/WhatsAppBot/issues"
+        "url": "https://github.com/AdolfoGriego/SayanBot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

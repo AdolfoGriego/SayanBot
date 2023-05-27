@@ -1,4 +1,4 @@
-console.log('✅ㅤIniciando...')
+console.log('👨‍💻 Espere esta cargando...')
 
 let cluster = require('cluster')
 let path = require('path')
@@ -9,7 +9,7 @@ const Readline = require('readline')
 const yargs = require('yargs/yargs')
 const rl = Readline.createInterface(process.stdin, process.stdout)
 
-CFonts.say('WhatsAppBot', {
+CFonts.say('SayanBot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']

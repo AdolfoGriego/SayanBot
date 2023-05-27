@@ -1,8 +1,8 @@
 {
-  "name": "WhatsAppBot",
-  "description": "Subscribete",
-  "repository": "https://github.com/AdolfoGriego/WhatsAppBot",
-  "logo": "https://raw.githubusercontent.com/AdolfoGriego/WhatsAppBot/master/Menu2.jpg",
+  "name": "SayanBot",
+  "description": "Siempre firmes",
+  "repository": "https://github.com/AdolfoGriego/SayanBot",
+  "logo": "https://raw.githubusercontent.com/AdolfoGriego/SayanBot/master/Menu2.jpg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
   "buildpacks": [
   {
