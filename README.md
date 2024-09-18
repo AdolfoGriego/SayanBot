@@ -6,22 +6,13 @@
 
 # CUENTA OFICIAL BIO
 
-* https://atom.bio/adolfogriego
-
-# GRUPO OFFICIAL
-<a href="https://chat.whatsapp.com/CPkaPo74zCIHvqDUnYnA4q" target="blank"><img src="https://img.shields.io/badge/SAYANBOT_OFFICIAL_(𝙴𝚂)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+* https://tinyurl.com/25msz48r
 
 # ACTIVARLO EN TERMUX
 ```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+INSTALACION AUTOMÁTICA
 $ termux-setup-storage
-$ apt update 
-$ apt upgrade -y
-$ pkg install git -y
-$ pkg install nodejs -y
-$ pkg install ffmpeg -y
-$ pkg install imagemagick -y
-$ pkg install yarn -y
+$ apt update -y && apt upgrade -y && pkg install bash && pkg install libwebp && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget && pkg install imagemagick -y && pkg install yarn -y
 $ git clone https://github.com/AdolfoGriego/SayanBot
 $ cd SayanBot
 $ ls
@@ -38,7 +29,7 @@ $ npm start
 # PARA OBTENER NUEVO CÓDIGO QR
 ```bash
 > cd SayanBot
-> rm -rf session.data.json
+> rm -rf session
 > npm start
 ```
 # SI LO QUIERES TENER ACTIVO 24/7 EN TERMUX
